@@ -49,9 +49,9 @@ describe('JSON-RPC API tests', function() {
 	   	.set('Accept', 'application/json')
 	   	.set('Content-Type', 'application/json')
 	   	.set('Content-Length', contentLength)
-	   	.expect(200)
 			.end(function (err, res) {
-				assert.ifError(err)
+				expect(res).to.exist
+        expect(res.status).to.equal(200)
 	   		expect(res.body.jsonrpc).to.equal('2.0')
 	   		expect(res.body.id).to.be.null
 	   		expect(res.body.error).to.be.a('object')
