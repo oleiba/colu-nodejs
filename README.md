@@ -1,6 +1,6 @@
 # Colu-Node.js
 [![Build Status](https://travis-ci.org/Colu-platform/colu-nodejs.svg?branch=master)](https://travis-ci.org/Colu-platform/colu-nodejs)
-[![Build Status](https://ci.appveyor.com/project/oleiba/colu-nodejs/branch/master)](https://ci.appveyor.com/project/oleiba/colu-nodejs/branch/master)
+[![Build Status](hhttps://ci.appveyor.com/api/projects/status/github/oleiba/colu-nodejs?svg=true)](https://ci.appveyor.com/project/oleiba/colu-nodejs/branch/master)
 [![Coverage Status](https://coveralls.io/repos/Colu-platform/colu-nodejs/badge.svg?branch=master)](https://coveralls.io/r/Colu-platform/colu-nodejs?branch=master) 
 [![npm version](https://badge.fury.io/js/colu.svg)](http://badge.fury.io/js/colu)
 

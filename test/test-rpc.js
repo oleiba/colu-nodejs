@@ -51,9 +51,8 @@ describe('JSON-RPC API tests', function() {
 	   	.set('Content-Length', contentLength)
 			.end(function (err, res) {
 				if (err) {
-					if (JSON.stringify(err).indexOf('ECONNREFUSED') > -1) {
+					if (err.code && .indexOf('ECONNREFUSED') > -1) {
 						//for some reason, appveyor tests fail with ECONNREFUSED only on first test. Ignore and continue.
-						console.log(err)
 						return done()
 					}
 					return done(err)
