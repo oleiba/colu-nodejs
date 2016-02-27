@@ -1,5 +1,8 @@
-# Colu-Node.Js
-[![Build Status](https://travis-ci.org/Colu-platform/colu-nodejs.svg?branch=master)](https://travis-ci.org/Colu-platform/colu-nodejs) [![Coverage Status](https://coveralls.io/repos/Colu-platform/colu-nodejs/badge.svg?branch=master)](https://coveralls.io/r/Colu-platform/colu-nodejs?branch=master) [![npm version](https://badge.fury.io/js/colu.svg)](http://badge.fury.io/js/colu)
+# Colu-Node.js
+[![Build Status](https://travis-ci.org/Colu-platform/colu-nodejs.svg?branch=master)](https://travis-ci.org/Colu-platform/colu-nodejs)
+[![Build Status](https://ci.appveyor.com/project/oleiba/colu-nodejs/branch/master)](https://ci.appveyor.com/project/oleiba/colu-nodejs/branch/master)
+[![Coverage Status](https://coveralls.io/repos/Colu-platform/colu-nodejs/badge.svg?branch=master)](https://coveralls.io/r/Colu-platform/colu-nodejs?branch=master) 
+[![npm version](https://badge.fury.io/js/colu.svg)](http://badge.fury.io/js/colu)
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
@@ -17,7 +20,7 @@ Full documentation for this Module can be found here: [http://documentation.colu
 
 ### Running as a standalone server
 
-To run as a standalone server you need to install Node.Js and NPM.
+To run as a standalone server you need to install Node.js and NPM.
 Then install the colu module globaly like this:
 
 ```sh

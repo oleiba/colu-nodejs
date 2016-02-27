@@ -8,14 +8,10 @@ init:
 environment:
   matrix:
   #node.js
+  - nodejs_version: "" # https://www.appveyor.com/docs/installed-software#node-js
   - nodejs_version: "4"
   - nodejs_version: "0.12"
   - nodejs_version: "0.10"
-  #io.js
-  - nodejs_version: "2.0"
-
-platform:
-  - x64
 
 # Install scripts. (runs after repo cloning)
 install:
