@@ -50,6 +50,7 @@ describe('JSON-RPC API tests', function() {
 	   	.set('Content-Type', 'application/json')
 	   	.set('Content-Length', contentLength)
 			.end(function (err, res) {
+				if (err) return done(err)
 				expect(res).to.exist
         expect(res.status).to.equal(200)
 	   		expect(res.body.jsonrpc).to.equal('2.0')
